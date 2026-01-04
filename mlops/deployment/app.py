@@ -24,12 +24,12 @@ lub_oil_temp=st.number_input('lub_oil_temp',min_value=70.000000,max_value=90.000
 Coolant_temp=st.number_input('Coolant_temp',min_value=60.000000,max_value=196.000000,value=78.000000)
 
 input_data = pd.DataFrame([{
-    'Engine_rpm': Engine_rpm,
-    'Lub_oil_pressure': Lub_oil_pressure,
-    'Fuel_pressure': Fuel_pressure,
-    'Coolant_pressure': Coolant_pressure,
-    'lub_oil_temp': lub_oil_temp,
-    'Coolant_temp': Coolant_temp  
+    'Engine rpm': Engine_rpm,
+    'Lub oil pressure': Lub_oil_pressure,
+    'Fuel pressure': Fuel_pressure,
+    'Coolant pressure': Coolant_pressure,
+    'lub oil temp': lub_oil_temp,
+    'Coolant temp': Coolant_temp  
                              }])
 
 # Predict button
