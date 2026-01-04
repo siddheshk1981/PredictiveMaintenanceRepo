@@ -16,7 +16,7 @@ st.write("Kindly enter the Vehicle engine sensor details to check whether the en
 
 # Collect user input
 
-Engine_rpm=st.number_input('Engine rpm',min_value=60,max=2240,value=746)
+Engine_rpm=st.number_input('Engine rpm',min_value=60,max_value=2240,value=746)
 Lub_oil_pressure= st.number_input('Lub oil pressure',min_value=0.000000,max_value=8.000000,value=3.000000)
 Fuel_pressure= st.number_input('Fuel pressure',min_value=0.000000,max_value=22.000000,value=6.000000)
 Coolant_pressure=st.number_input('Coolant pressure',min_value=0.000000,max_value=8.000000,value=2.000000)
