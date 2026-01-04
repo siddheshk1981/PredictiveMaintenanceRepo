@@ -14,7 +14,7 @@ st.title("Predictive Maintenance Prediction App")
 st.write("The Predictive Maintenance Prediction App is an internal tool for Fleet owners and Vehicle Manufacturers, that predicts  whether a Vehicle engine is faulty and requires maintenance or not.")
 st.write("Kindly enter the Vehicle engine sensor details to check whether the engine is faulty or not.")
 
-# Collect user input
+# Collect user input 
 
 Engine_rpm=st.number_input('Engine_rpm',min_value=60,max_value=2240,value=746)
 Lub_oil_pressure= st.number_input('Lub_oil_pressure',min_value=0.000000,max_value=8.000000,value=3.000000)
