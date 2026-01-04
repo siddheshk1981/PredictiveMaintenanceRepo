@@ -16,12 +16,12 @@ st.write("Kindly enter the Vehicle engine sensor details to check whether the en
 
 # Collect user input
 
-Engine_rpm=st.number_input('Engine rpm',min_value=60,max_value=2240,value=746)
-Lub_oil_pressure= st.number_input('Lub oil pressure',min_value=0.000000,max_value=8.000000,value=3.000000)
-Fuel_pressure= st.number_input('Fuel pressure',min_value=0.000000,max_value=22.000000,value=6.000000)
-Coolant_pressure=st.number_input('Coolant pressure',min_value=0.000000,max_value=8.000000,value=2.000000)
-lub_oil_temp=st.number_input('lub oil temp',min_value=70.000000,max_value=90.000000,value=76.000000)
-Coolant_temp=st.number_input('Coolant temp',min_value=60.000000,max_value=196.000000,value=78.000000)
+Engine_rpm=st.number_input('Engine_rpm',min_value=60,max_value=2240,value=746)
+Lub_oil_pressure= st.number_input('Lub_oil_pressure',min_value=0.000000,max_value=8.000000,value=3.000000)
+Fuel_pressure= st.number_input('Fuel_pressure',min_value=0.000000,max_value=22.000000,value=6.000000)
+Coolant_pressure=st.number_input('Coolant_pressure',min_value=0.000000,max_value=8.000000,value=2.000000)
+lub_oil_temp=st.number_input('lub_oil_temp',min_value=70.000000,max_value=90.000000,value=76.000000)
+Coolant_temp=st.number_input('Coolant_temp',min_value=60.000000,max_value=196.000000,value=78.000000)
 
 input_data = pd.DataFrame([{
     'Engine_rpm': Engine_rpm,
